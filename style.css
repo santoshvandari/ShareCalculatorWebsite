@@ -21,16 +21,31 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 nav ul li{
     list-style: none;
+    padding: 0 20px;
 }
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    padding: 0 20px;
     border-radius: 5px;
-    transition: all 0.3s ease;
+    position: relative;
+}
+nav ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background:#fff;
+    transition: width 0.2s ease-in-out;
+}
+nav ul li:hover a::before{
+    width: 100%;
+
 }
