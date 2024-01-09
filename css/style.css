@@ -5,12 +5,15 @@
 }
 body{
     background: #202020;
+    background: #234E70;;
+    /* background: #F4F5FF; */
 }
 header nav{
     padding: 10px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #1e276177;
 }
 nav div.logo h1{
     color: #fff;
