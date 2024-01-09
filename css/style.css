@@ -127,3 +127,20 @@ select#tax{
     width: 150px;
     background: #fff;
 }
+form .btn-wrapper button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: #1E2761;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s linear;
+}
+form .btn-wrapper button:hover{
+    background: #fff;
+    color: #1E2761;
+}
