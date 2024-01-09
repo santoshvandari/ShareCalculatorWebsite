@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 1150px) {
+    .calculated-result{
+        padding: 40px 50px;
+    }
+    .calculated-result h2{
+        font-size: 22px;
+    }
+    .calculated-result p{
+        font-size: 18px;
+    }
+    .calculated-result p:last-child{
+        font-size: 20px;
+        
+    }
+}
+@media screen and (max-width: 700px) {
+
+    .calculated-result{
+        padding: 40px 20px;
+    }
+    .calculated-result h2{
+        font-size: 20px;
+    }
+    .calculated-result p{
+        font-size: 16px;
+    }
+    .calculated-result p:last-child{
+        font-size: 18px;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div.form-wrapper{
+        width: 99%;  
+    }
+    div.sell-form form,div.buy-form form{
+        padding: 0px;
+    }
+    form h2{
+        font-size: 20px;
+    }
+    form label{
+        font-size: 16px;
+    }
+    form input{
+        padding: 3px;
+        margin: 3px 0;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    form input::placeholder{
+        font-size: 16px;
+    }
+    select#tax{
+        font-size: 16px;
+        width: 100px;
+    }
+    form .btn-wrapper{
+        text-align: center;
+    }
+    .calculated-result{
+        padding: 40px 10px;
+    }
+}

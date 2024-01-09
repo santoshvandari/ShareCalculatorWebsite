@@ -53,14 +53,13 @@ nav ul li:hover a::before{
 
 }
 /* nav bar ends here  */
-section{
+section#main{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
     gap: 20px;
     flex-direction: column;
-    padding: 0 200px;
 }
 div.title-wrapper{
     margin: 10px 0 50px 0;
@@ -68,13 +67,14 @@ div.title-wrapper{
 div.title-wrapper h2{
     font-size: 30px;
     color: #F4F5FF;
+    text-decoration: underline ;
 }
 div.form-wrapper{
     display: flex;
     justify-content: space-around;
     gap: 50px;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
 
 }
 div.sell-form,div.buy-form{
@@ -179,3 +179,5 @@ form .btn-wrapper button:hover{
     font-weight: bold;
     color: #007575;
 }
+
+
