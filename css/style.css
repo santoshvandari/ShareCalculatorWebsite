@@ -179,5 +179,14 @@ form .btn-wrapper button:hover{
     font-weight: bold;
     color: #007575;
 }
+/* Form Section Ends here  */
 
+/* FAQ Section Start Here  */
+section .faq-wrapper h2{
+    font-size: 30px;
+    color: #F4F5FF;
+    text-decoration: underline ;
+    margin: 20px 0;
+    text-align: center;
+}
 
