@@ -52,3 +52,23 @@ nav ul li:hover a::before{
     width: 100%;
 
 }
+/* nav bar ends here  */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+div.sell-form form,div.buy-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+div.buy-form form{
+
+}
