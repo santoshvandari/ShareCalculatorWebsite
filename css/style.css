@@ -60,9 +60,10 @@ section{
     margin: 20px 0;
     gap: 20px;
     flex-direction: column;
+    padding: 0 200px;
 }
 div.title-wrapper{
-    margin: 10px 0;
+    margin: 10px 0 50px 0;
 }
 div.title-wrapper h2{
     font-size: 30px;
@@ -70,12 +71,13 @@ div.title-wrapper h2{
 }
 div.form-wrapper{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     gap: 50px;
     flex-wrap: wrap;
+    width: 100%;
+
 }
-div.sell-form,div.buy-form{
+div.sell-form,div.buy-form,.sell-result{
     border-radius: 10px;
     background: #F4F5FF;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
@@ -91,6 +93,7 @@ div.sell-form form,div.buy-form form{
 form h2{
     font-size: 25px;
     margin: 10px 0;
+    text-decoration: underline;
 }
 form label{
     font-size: 20px;
@@ -143,4 +146,35 @@ form .btn-wrapper button{
 form .btn-wrapper button:hover{
     background: #fff;
     color: #1E2761;
+}
+/* Form ends Here  */
+.sell-result{
+    margin: 40px 0;
+    /* background: #007575; */
+    padding: 40px 20px;
+    display: block;
+
+}
+.sell-result h2{
+    font-size: 25px;
+    color: #1E2761;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.sell-result p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.sell-result p:last-child{
+    font-size: 22px;
+    color: #007575;
+    font-weight: bold;
+    margin: 10px 0;
+    
+}
+.sell-result p span{
+    font-weight: bold;
+    color: #007575;
 }
