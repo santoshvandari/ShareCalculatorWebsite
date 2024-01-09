@@ -59,6 +59,21 @@ section{
     align-items: center;
     margin: 20px 0;
     gap: 20px;
+    flex-direction: column;
+}
+div.title-wrapper{
+    margin: 10px 0;
+}
+div.title-wrapper h2{
+    font-size: 30px;
+    color: #F4F5FF;
+}
+div.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 div.sell-form form,div.buy-form form{
     display: flex;
@@ -68,6 +83,7 @@ div.sell-form form,div.buy-form form{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 500px;
 }
 div.buy-form form{
 
