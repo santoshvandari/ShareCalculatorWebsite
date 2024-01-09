@@ -1,3 +1,4 @@
+/* Index Page CSS  */
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,6 @@
 body{
     background: #202020;
     background: #234E70;;
-    /* background: #F4F5FF; */
 }
 header nav{
     padding: 10px 100px;
@@ -53,6 +53,8 @@ nav ul li:hover a::before{
 
 }
 /* nav bar ends here  */
+/* main Section Start HEre  */
+/* Calculation SectionN Start  */
 section#main{
     display: flex;
     justify-content: center;
@@ -69,13 +71,13 @@ div.title-wrapper h2{
     color: #F4F5FF;
     text-decoration: underline ;
 }
+/* Form Section Start  */
 div.form-wrapper{
     display: flex;
     justify-content: space-around;
     gap: 50px;
     flex-wrap: wrap;
     width: 80%;
-
 }
 div.sell-form,div.buy-form{
     border-radius: 10px;
@@ -148,6 +150,7 @@ form .btn-wrapper button:hover{
     color: #1E2761;
 }
 /* Form ends Here  */
+/* Result Section Start Here  */
 .calculated-result{
     margin: 40px 0;
     padding: 40px 200px;
@@ -179,8 +182,8 @@ form .btn-wrapper button:hover{
     font-weight: bold;
     color: #007575;
 }
-/* Form Section Ends here  */
-
+/* Result Section Ends here  */
+/* Calculation Section Ends Here  */
 /* FAQ Section Start Here  */
 section .faq-wrapper h2{
     font-size: 30px;
@@ -189,4 +192,5 @@ section .faq-wrapper h2{
     margin: 20px 0;
     text-align: center;
 }
+/* Index Page Ends Here  */
 
