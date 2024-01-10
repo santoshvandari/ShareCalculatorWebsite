@@ -13,6 +13,9 @@
         font-size: 20px;
         
     }
+    .contactus{
+        width: 60%;
+    }
 }
 @media screen and (max-width: 700px) {
 
@@ -28,6 +31,9 @@
     .calculated-result p:last-child{
         font-size: 18px;
         
+    }
+    .contactus{
+        width: 70%;
     }
 }
 
@@ -62,5 +68,8 @@
     }
     .calculated-result{
         padding: 40px 10px;
+    }
+    .contactus{
+        width: 90%;
     }
 }
