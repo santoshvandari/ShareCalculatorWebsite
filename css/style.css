@@ -218,6 +218,7 @@ footer p{
 /* Contact Page Starts Here */
 .contactus{
  width: 40%;
+ min-height: 80vh;
 }
 .contactus h2{
     margin-top: 20px;
@@ -249,6 +250,28 @@ footer p{
     margin-bottom: 10px;
 }
 /* Contact Page Ends Here */
+/* About US Page Starts Here  */
+.aboutus{
+    padding: 10px 5px;
+    color: #fff;
+    align-items: justify;
+    min-height: 80vh;
+}
+.aboutus h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #F4F5FF;
+}
+.aboutus p{
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+}
+
+/* About Us Page Ends Here  */
+
 /* Privacy Policy Page Starts Here  */
 .privacypolicy{
    color: #fff;
