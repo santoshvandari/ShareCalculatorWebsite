@@ -192,6 +192,12 @@ section .faq-wrapper h2{
     margin: 20px 0;
     text-align: center;
 }
+.accordion-item{
+    margin: 5px 0 !important;
+}
+.accordion-item h2{
+    margin: 0px 0 !important;
+}
 /* Footer Section Start  */
 footer{
     display: flex;
