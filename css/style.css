@@ -219,19 +219,33 @@ footer p{
 .contactus{
  width: 40%;
 }
-
+.contactus h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #F4F5FF;
+}
 .contactus form{
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
 }
-.contactus h2{
-    text-align: center;
-    font-size: 30px;
-    margin: 10px 0;
-    text-decoration: underline;
+.contactus form label{
+    font-size: 20px;
+    color: #FBF8BE;
+    font-size: bold;
+    margin: 5px 0;
 }
-
+.contactus form textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 /* Contact Page Ends Here */
