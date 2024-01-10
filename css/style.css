@@ -281,6 +281,9 @@ footer p{
    padding: 10px 5px;
    text-align: justify;
 }
+.privacypolic p{
+    font-size: 20px;
+}
 /* Privacy Policy Page Ends Here  */
 
 /* Preloader Section Start Here  */
