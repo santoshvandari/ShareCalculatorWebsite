@@ -192,5 +192,20 @@ section .faq-wrapper h2{
     margin: 20px 0;
     text-align: center;
 }
+/* Footer Section Start  */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: #1e276177;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color:#F4F5FF
+}
+/* footer section Ends  */
 /* Index Page Ends Here  */
 
