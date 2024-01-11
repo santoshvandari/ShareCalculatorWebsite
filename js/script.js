@@ -103,7 +103,7 @@
                 <p>Broker Commission : <span> ${BrokerCharge} </span> </p>
                 <p>Capital Gain Tax: <span> ${capitalgaintax} </span> </p>
                 <p>Profit/Loss: <span> ${actualprofit} </span> </p>
-                <p>Return on Investment : <span> ${((actualprofit / totalBuyAmt) * 100).toFixed(2)} </span> </p>
+                <p>Return on Investment : <span> ${((actualprofit / totalBuyAmt) * 100).toFixed(2)} %</span> </p>
                 <hr>
                 <p>Total Receivable Amount: <span> ${receivableamount} </span> </p>
               </div>
