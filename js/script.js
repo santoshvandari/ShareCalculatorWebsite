@@ -9,7 +9,6 @@
     let errorDiv = document.querySelectorAll("div.error");
     let sellForm = document.querySelector('div.sell-form form');
     let buyForm = document.querySelector('div.buy-form form');
-
     // Defining Constatn variable
     const Dpcharge = 25;
     const sebonFeePercentage = 0.015;
@@ -58,7 +57,6 @@
         let BrokerCharge = brokerChargeCalculation(total);
         console.log(total, sebonfee, BrokerCharge)
         return (total + BrokerCharge + Dpcharge + sebonfee);
-
     };
     // Handeling Option Selection 
     selectoptEl.addEventListener('change', formDisp);
@@ -104,17 +102,12 @@
               </div>
             </div>`;
                 resultDiv.style.display = 'block';
-
                 resultDiv.innerHTML = Result;
-
             }
         } else {
             errorDiv[0].textContent = '* Are Mandatory field.';
         }
     });
-
-
-
     // Handeling the Buy Calculation 
     buyForm.addEventListener('submit', (e) => {
         e.preventDefault();
@@ -126,7 +119,7 @@
                 errorDiv[1].textContent = 'Invalid Data';
             } else {
                 let totalbuyamount = buyprice * quantity;
-                let total =( buyAmtCalculation(buyprice, quantity)).toFixed(2);
+                let total = (buyAmtCalculation(buyprice, quantity)).toFixed(2);
                 let totalSebonFee = ((totalbuyamount * sebonFeePercentage) / 100).toFixed(2);
                 let BrokerCharge = brokerChargeCalculation(totalbuyamount);
 
@@ -139,7 +132,7 @@
                 <p>Broker Commission : <span> ${BrokerCharge} </span> </p>
                 <hr>
                 <p>Total Payable Amount: <span> ${total} </span> </p>
-              </div>
+                </div>
             </div>`;
                 resultDiv.style.display = 'block';
                 resultDiv.innerHTML = Result;
