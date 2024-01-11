@@ -69,7 +69,7 @@
                 console.log(sellprice,buyprice,quantity,taxpercent);
                 let totalSellAmt= sellprice*quantity;
                 let totalBuyAmt= buyAmtCalculation(buyprice,quantity);
-                let totalSebonFee= (totalSellAmt*sebonFeePercentage)/100;
+                let totalSebonFee= ((totalSellAmt*sebonFeePercentage)/100).toFixed(2);
                 let BrokerCharge=10;
                 let capitalgaintax=0;
                 if(totalSellAmt<=50000){
@@ -79,19 +79,20 @@
                     }
                 }else if(totalSellAmt>50000 && totalSellAmt<=500000){
                     BrokerCharge=totalSellAmt*0.37/100;
-                }else if(totalSebonFee>500000 && totalSellAmt<=2000000){
+                }else if(totalSellAmt>500000 && totalSellAmt<=2000000){
                     BrokerCharge=totalSellAmt*0.34/100;
                 }else if(totalSellAmt>2000000 && totalSellAmt<=10000000){
                     BrokerCharge=totalSellAmt*0.30/100;
                 }else if(totalSellAmt>10000000){
                     BrokerCharge=totalSellAmt*0.27/100;
                 }
+                BrokerCharge=BrokerCharge.toFixed(2);
                 let receivableamount=totalSellAmt-Dpcharge-totalSebonFee-BrokerCharge;
                 let profit_loss= (receivableamount-totalBuyAmt);
                 if(profit_loss>0){
-                    capitalgaintax=profit_loss*taxpercent/100;
+                    capitalgaintax=(profit_loss*taxpercent/100).toFixed(2);
                 }
-                let actualprofit= profit_loss-capitalgaintax;
+                let actualprofit= (profit_loss-capitalgaintax).toFixed(2);
 
                 let Result=`
                 <div class="result-wrapper">
@@ -102,7 +103,7 @@
                 <p>Broker Commission : <span> ${BrokerCharge} </span> </p>
                 <p>Capital Gain Tax: <span> ${capitalgaintax} </span> </p>
                 <p>Profit/Loss: <span> ${actualprofit} </span> </p>
-                <p>Return on Investment : <span> ${(actualprofit / totalBuyAmt) * 100} </span> </p>
+                <p>Return on Investment : <span> ${((actualprofit / totalBuyAmt) * 100).toFixed(2)} </span> </p>
                 <hr>
                 <p>Total Receivable Amount: <span> ${receivableamount} </span> </p>
               </div>
