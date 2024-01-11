@@ -126,7 +126,7 @@
                 errorDiv[1].textContent = 'Invalid Data';
             } else {
                 let totalbuyamount = buyprice * quantity;
-                let total = buyAmtCalculation(buyprice, quantity);
+                let total =( buyAmtCalculation(buyprice, quantity)).toFixed(2);
                 let totalSebonFee = ((totalbuyamount * sebonFeePercentage) / 100).toFixed(2);
                 let BrokerCharge = brokerChargeCalculation(totalbuyamount);
 
