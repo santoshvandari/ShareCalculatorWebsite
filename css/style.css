@@ -74,13 +74,35 @@ div.title-wrapper h2{
     color: #F4F5FF;
     text-decoration: underline ;
 }
+/* Selection Option Wraper  */
+.selection-wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.selection-wrapper label{
+    font-size: 28px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #F4F5FF;
+}
+.selection-wrapper select{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: #fff;  
+}
 /* Form Section Start  */
 div.form-wrapper{
     display: flex;
-    justify-content: space-around;
+    width: 30%;
+    flex-direction: column;
     gap: 50px;
     flex-wrap: wrap;
-    width: 80%;
 }
 div.sell-form,div.buy-form{
     border-radius: 10px;
