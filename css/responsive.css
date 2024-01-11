@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 1150px) {
-    .calculated-result{
-        padding: 40px 50px;
+    div.form-wrapper{
+        width: 60%;
     }
     .calculated-result h2{
         font-size: 22px;
@@ -18,9 +18,11 @@
     }
 }
 @media screen and (max-width: 700px) {
-
+    div.form-wrapper{
+        width: 80%;
+    }
     .calculated-result{
-        padding: 40px 20px;
+        padding: 40px 10px;
     }
     .calculated-result h2{
         font-size: 20px;
@@ -38,6 +40,13 @@
 }
 
 @media screen and (max-width: 400px) {
+    .selection-wrapper label{
+        font-size: 22px;
+    }
+    .selection-wrapper select{
+    font-size: 18px;
+
+    }
     div.form-wrapper{
         width: 99%;  
     }

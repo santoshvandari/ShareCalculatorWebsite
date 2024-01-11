@@ -68,6 +68,7 @@ section#main{
 }
 div.title-wrapper{
     margin: 10px 0 50px 0;
+    text-align: center;
 }
 div.title-wrapper h2{
     font-size: 30px;
@@ -78,7 +79,6 @@ div.title-wrapper h2{
 .selection-wrapper{
     display: flex;
     flex-direction: column;
-
 }
 .selection-wrapper label{
     font-size: 28px;
@@ -99,10 +99,12 @@ div.title-wrapper h2{
 /* Form Section Start  */
 div.form-wrapper{
     display: flex;
-    width: 30%;
+    width: 40%;
     flex-direction: column;
     gap: 50px;
-    flex-wrap: wrap;
+}
+div.buy-section{
+    display: none;
 }
 div.sell-form,div.buy-form{
     border-radius: 10px;
@@ -178,7 +180,7 @@ form .btn-wrapper button:hover{
 /* Result Section Start Here  */
 .calculated-result{
     margin: 40px 0;
-    padding: 40px 200px;
+    padding: 40px 40px;
     border-radius: 10px;
     background: #F4F5FF;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
