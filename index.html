@@ -49,12 +49,12 @@
             <form>
               <h2>Sell Calculation</h2>
               <div class="error"></div>
-              <label for="sellingprice">Selling Price *</label>
-              <input type="number" id="sellingprice" placeholder="Enter Selling Price" required>
+              <label for="sellprice">Selling Price *</label>
+              <input type="number" step="0.01" id="sellprice" placeholder="Enter Selling Price" >
               <label for="buyprice">Buying Price *</label>
-              <input type="number" id="buyprice" placeholder="Enter Buying Price" required />
+              <input type="number" step="0.01" id="buyprice" placeholder="Enter Buying Price"  />
               <label for="quantity">Quantity *</label>
-              <input type="number" id="quantity" placeholder="Enter a Quantity" required />
+              <input type="number" id="quantity" placeholder="Enter a Quantity"  />
               <label for="tax">Capital Gain Tax *</label>
               <div class="wrapper">If your holding is more than 365, tax is 5% otherwise 7.5%</div>
               <select id="tax">
@@ -71,10 +71,11 @@
           <div class="buy-form">
             <form>
               <h2>Buy Calculation</h2>
+              <div class="error"></div>
               <label for="buyprice">Buying Price *</label>
-              <input type="number" id="buyprice" placeholder="Enter Buying Price" required />
+              <input type="number" step="0.01" id="buyprice" placeholder="Enter Buying Price" />
               <label for="quantity">Quantity *</label>
-              <input type="number" id="quantity" placeholder="Enter a Quantity" required />
+              <input type="number" id="quantity" placeholder="Enter a Quantity" />
               <div class="btn-wrapper">
                 <button type="submit">Calculate</button>
               </div>
