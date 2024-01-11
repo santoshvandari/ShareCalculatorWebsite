@@ -215,6 +215,9 @@ form .btn-wrapper button:hover{
 /* Result Section Ends here  */
 /* Calculation Section Ends Here  */
 /* FAQ Section Start Here  */
+section#faq{
+    margin: 100px 0;
+}
 section .faq-wrapper h2{
     font-size: 30px;
     color: #F4F5FF;
