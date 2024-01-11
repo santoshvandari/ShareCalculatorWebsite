@@ -5,5 +5,5 @@
     window.addEventListener('load',()=>{
         preloaderEl.style.display='none';
     });
-    
+    selectoptEl.addEventListener
 })();
