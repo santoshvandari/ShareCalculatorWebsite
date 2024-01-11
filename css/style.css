@@ -103,6 +103,9 @@ div.form-wrapper{
     flex-direction: column;
     gap: 50px;
 }
+div.error{
+    color: red;
+}
 div.buy-section{
     display: none;
 }
