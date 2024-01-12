@@ -1,10 +1,10 @@
 
 @media screen and (max-width: 1150px) {
     div.form-wrapper{
-        width: 60%;
+        width: 80%;
     }
     .calculated-result h2{
-        font-size: 22px;
+        font-size: 30px;
     }
     .calculated-result p{
         font-size: 18px;
@@ -19,7 +19,14 @@
 }
 @media screen and (max-width: 700px) {
     div.form-wrapper{
-        width: 80%;
+        width: 90%;
+    }
+    form h2{
+        font-size: 30px;
+    }
+    form label{
+        font-size: 20px;
+        font-weight: bold;
     }
     .calculated-result{
         padding: 40px 10px;
@@ -28,10 +35,10 @@
         font-size: 20px;
     }
     .calculated-result p{
-        font-size: 16px;
+        font-size: 19px;
     }
     .calculated-result p:last-child{
-        font-size: 18px;
+        font-size: 20px;
         
     }
     .contactus{
@@ -41,7 +48,7 @@
 
 @media screen and (max-width: 400px) {
     .selection-wrapper label{
-        font-size: 22px;
+        font-size: 24px;
     }
     .selection-wrapper select{
     font-size: 18px;
@@ -53,20 +60,14 @@
     div.sell-form form,div.buy-form form{
         padding: 0px;
     }
-    form h2{
-        font-size: 20px;
-    }
-    form label{
-        font-size: 16px;
-    }
     form input{
-        padding: 3px;
+        padding: 5px 4px;
         margin: 3px 0;
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 10px;
     }
     form input::placeholder{
-        font-size: 16px;
+        font-size: 18px;
     }
     select#tax{
         font-size: 16px;
@@ -81,4 +82,9 @@
     .contactus{
         width: 90%;
     }
+}
+
+@media screen and (max-width: 800px) {
+    
+    
 }
