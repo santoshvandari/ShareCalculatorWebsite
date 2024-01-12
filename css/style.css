@@ -303,7 +303,7 @@ footer p{
 /* Contact Page Ends Here */
 /* About US Page Starts Here  */
 .aboutus{
-    padding: 10px 5px;
+    padding: 15px;
     color: #fff;
     align-items: justify;
     min-height: 80vh;
@@ -326,10 +326,10 @@ footer p{
 /* Privacy Policy Page Starts Here  */
 .privacypolicy{
    color: #fff;
-   padding: 10px 5px;
+   padding: 15px;
    text-align: justify;
 }
-.privacypolic p{
+.privacypolicy p{
     font-size: 20px;
 }
 /* Privacy Policy Page Ends Here  */
