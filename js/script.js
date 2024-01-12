@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 (() => {
     // selecting all the Element 
     let preloaderEl = document.querySelector('div.preloader');
@@ -12,7 +12,6 @@
     let OptionShowEl= document.querySelector('div.option-show i');
     let OptionCloseEl= document.querySelector('div.option-cross i');
     let menuWrapper= document.querySelector('div.menu-wrapper');
-    console.log(OptionShowEl,OptionCloseEl,menuWrapper)
     // Defining Constatn variable
     const Dpcharge = 25;
     const sebonFeePercentage = 0.015;
@@ -20,6 +19,21 @@
     window.addEventListener('load', () => {
         preloaderEl.style.display = 'none';
     });
+
+
+    // Handeling the Menu Showing Option
+    OptionShowEl.addEventListener('click', () => {
+        OptionShowEl.style.display = 'none';
+        menuWrapper.classList.add('show');
+
+    });
+    // Handeling the Menu Close Option
+    OptionCloseEl.addEventListener('click', () => {
+        OptionShowEl.style.display = 'block';
+        menuWrapper.classList.remove('show');
+    });
+
+
     // Handeling Form Display
     let formDisp = () => {
         let selectionElValue = selectoptEl.value;
@@ -145,19 +159,6 @@
             errorDiv[1].textContent = '* Are Mandatory field.';
         }
     });
-
-    // Handeling the Menu Showing Option
-    OptionShowEl.addEventListener('click', () => {
-        OptionShowEl.style.display = 'none';
-        menuWrapper.classList.add('show');
-
-    });
-    // Handeling the Menu Close Option
-    OptionCloseEl.addEventListener('click', () => {
-        OptionShowEl.style.display = 'block';
-        menuWrapper.classList.remove('show');
-    });
-
 
     // calling the Form Display
     formDisp();
