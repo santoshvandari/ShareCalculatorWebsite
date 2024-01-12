@@ -137,9 +137,10 @@ div.sell-form form,div.buy-form form{
     padding: 20px;
 }
 form h2{
-    font-size: 25px;
+    font-size: 28px;
     margin: 10px 0;
     text-decoration: underline;
+    text-align: center;
 }
 form label{
     font-size: 20px;
@@ -161,7 +162,7 @@ form input::placeholder{
     font-size: 20px;
 }
 form div.wrapper{
-    font-size: 12px;
+    font-size: 18px;
     color: #1E2761;
     margin: 5px 0 ;
 }
@@ -175,6 +176,9 @@ select#tax{
     margin-bottom: 10px;
     width: 150px;
     background: #fff;
+}
+form .btn-wrapper{
+    text-align: center;
 }
 form .btn-wrapper button{
     padding: 10px 20px;
