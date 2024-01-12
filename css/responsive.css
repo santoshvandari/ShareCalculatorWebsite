@@ -91,5 +91,7 @@
     header nav div.logo h1{
         font-size: 25px;
     }
-    
+    div.menu-wrapper{
+        /* height: 100vh; */
+    }
 }

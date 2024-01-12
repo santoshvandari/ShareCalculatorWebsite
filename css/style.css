@@ -8,19 +8,20 @@ body{
     background: #202020;
     background: #234E70;;
 }
-header nav{
+header{
     padding: 10px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #1e276177;
 }
-nav div.logo h1{
+header div.logo h1{
     color: #fff;
     font-size:30px;
     text-decoration: none;
 }
-nav ul{
+
+nav div.menu-wrapper ul{
     display: flex;
     justify-content: center;
     align-items: center;
