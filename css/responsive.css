@@ -85,6 +85,11 @@
 }
 
 @media screen and (max-width: 800px) {
-    
+    header nav{
+        padding: 10px;
+    }
+    header nav div.logo h1{
+        font-size: 25px;
+    }
     
 }
