@@ -21,12 +21,24 @@ header div.logo h1{
     font-size:30px;
     text-decoration: none;
 }
-
+nav{
+    display: flex;
+    align-items: center;
+}
 .menu-wrapper ul{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+.option-show{
+    font-size: 25px;
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+}
+.option-cross{
+    display: none;
 }
 nav ul li{
     list-style: none;

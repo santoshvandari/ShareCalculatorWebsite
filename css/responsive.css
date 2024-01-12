@@ -99,10 +99,32 @@
         height: 100vh;
         background: #0000004d;
         padding: 20px 0;
-
+        width: 0px;
+        overflow: hidden;
+        transition: all 0.2s linear;
+    }
+    div.show{
+        width:100%;
+    }
+    .option-show{
+        display: block;
+    }
+  
+    div.option-cross{
+        display: block;
+        text-align: right;
+        padding: 0px 10px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+        text-align: right;
+        margin-bottom: 20px;
     }
     div.menu-wrapper ul{
         flex-direction: column;
     }
 
+}
+.option-show{
+    color: #fff;
 }

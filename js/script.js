@@ -9,6 +9,10 @@
     let errorDiv = document.querySelectorAll("div.error");
     let sellForm = document.querySelector('div.sell-form form');
     let buyForm = document.querySelector('div.buy-form form');
+    let OptionShowEl= document.querySelector('div.option-show i');
+    let OptionCloseEl= document.querySelector('div.option-cross i');
+    let menuWrapper= document.querySelector('div.menu-wrapper');
+    console.log(OptionShowEl,OptionCloseEl,menuWrapper)
     // Defining Constatn variable
     const Dpcharge = 25;
     const sebonFeePercentage = 0.015;
@@ -141,6 +145,20 @@
             errorDiv[1].textContent = '* Are Mandatory field.';
         }
     });
+
+    // Handeling the Menu Showing Option
+    OptionShowEl.addEventListener('click', () => {
+        OptionShowEl.style.display = 'none';
+        menuWrapper.classList.add('show');
+
+    });
+    // Handeling the Menu Close Option
+    OptionCloseEl.addEventListener('click', () => {
+        OptionShowEl.style.display = 'block';
+        menuWrapper.classList.remove('show');
+    });
+
+
     // calling the Form Display
     formDisp();
 })();
