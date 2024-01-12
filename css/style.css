@@ -6,7 +6,8 @@
 }
 body{
     background: #202020;
-    background: #234E70;;
+    background: #234E70;
+    position: relative;
 }
 header{
     padding: 10px 100px;
@@ -21,7 +22,7 @@ header div.logo h1{
     text-decoration: none;
 }
 
-nav div.menu-wrapper ul{
+.menu-wrapper ul{
     display: flex;
     justify-content: center;
     align-items: center;
