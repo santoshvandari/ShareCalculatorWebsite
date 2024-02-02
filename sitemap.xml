@@ -26,11 +26,4 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-    <!-- Blog Page  -->
-    <url>
-        <loc>https://www.sharehisab.com/blog.html</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <!-- Blog Data Page  -->
 </urlset>
