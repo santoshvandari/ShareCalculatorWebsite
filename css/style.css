@@ -35,6 +35,7 @@ nav{
     font-weight: bold;
     display: none;
     cursor: pointer;
+    color: #fff;
 }
 .option-cross{
     display: none;

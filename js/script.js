@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 (() => {
     // selecting all the Element 
     let preloaderEl = document.querySelector('div.preloader');
@@ -9,8 +9,8 @@
     let errorDiv = document.querySelectorAll("div.error");
     let sellForm = document.querySelector('div.sell-form form');
     let buyForm = document.querySelector('div.buy-form form');
-    let OptionShowEl= document.querySelector('div.option-show i');
-    let OptionCloseEl= document.querySelector('div.option-cross i');
+    let OptionShowEl= document.querySelector('div.option-show span');
+    let OptionCloseEl= document.querySelector('div.option-cross span');
     let menuWrapper= document.querySelector('div.menu-wrapper');
     // Defining Constatn variable
     const Dpcharge = 25;
@@ -162,4 +162,4 @@
 
     // calling the Form Display
     formDisp();
-})();
+})();  
