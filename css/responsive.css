@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 1150px) {
     div.form-wrapper{
         width: 80%;
@@ -115,7 +114,6 @@
   
     div.option-cross{
         display: block;
-        text-align: right;
         padding: 0px 10px;
         color: #fff;
         font-size: 30px;
@@ -126,8 +124,4 @@
     div.menu-wrapper ul{
         flex-direction: column;
     }
-
-}
-.option-show{
-    color: #fff;
 }
