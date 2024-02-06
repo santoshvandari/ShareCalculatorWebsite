@@ -44,6 +44,9 @@
     .contactus{
         width: 70%;
     }
+    div.title-wrapper h4{
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 400px) {
