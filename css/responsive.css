@@ -1,1 +1,173 @@
-@media screen and (max-width:1150px){div.form-wrapper{width:80%}.calculated-result h2{font-size:30px}.calculated-result p{font-size:18px}.calculated-result p:last-child{font-size:20px}.contactus{width:60%}}@media screen and (max-width:700px){div.form-wrapper{width:90%}form h2{font-size:30px}form label{font-size:20px;font-weight:bold}.calculated-result{padding:40px 10px}.calculated-result h2{font-size:20px}.calculated-result p{font-size:19px}.calculated-result p:last-child{font-size:20px}.contactus{width:70%}div.title-wrapper p{font-size:25px}}@media screen and (max-width:400px){.selection-wrapper label{font-size:24px}.selection-wrapper select{font-size:18px}div.form-wrapper{width:99%}div.sell-form form,div.buy-form form{padding:0}form input{padding:5px 4px;margin:3px 0;font-size:18px;margin-bottom:10px}form input::placeholder{font-size:18px}select#tax{font-size:16px;width:100px}form .btn-wrapper{text-align:center}.calculated-result{padding:40px 10px}.contactus{width:90%}}@media screen and (max-width:800px){header{padding:10px}header nav div.logo h1 a{font-size:25px}div.menu-wrapper{position:absolute;z-index:99;top:0;right:0;height:100vh;background:#0000004d;padding:20px 0;width:0;overflow:hidden;transition:all .2s linear}div.show{width:100%}.option-show{display:block}div.option-cross{display:block;padding:0 10px;color:#fff;font-size:30px;cursor:pointer;text-align:right;margin-bottom:20px}div.menu-wrapper ul{flex-direction:column}}
+@media screen and (max-width:1150px) {
+    div.form-wrapper {
+        width: 80%
+    }
+
+    .calculated-result h2 {
+        font-size: 30px
+    }
+
+    .calculated-result p {
+        font-size: 18px
+    }
+
+    .calculated-result p:last-child {
+        font-size: 20px
+    }
+
+    .contactus {
+        width: 60%
+    }
+}
+
+@media screen and (max-width:700px) {
+    div.form-wrapper {
+        width: 90%
+    }
+
+    form h2 {
+        font-size: 30px
+    }
+
+    form label {
+        font-size: 20px;
+        font-weight: bold
+    }
+
+    .calculated-result {
+        padding: 40px 10px
+    }
+
+    .calculated-result h2 {
+        font-size: 20px
+    }
+
+    .calculated-result p {
+        font-size: 19px
+    }
+
+    .calculated-result p:last-child {
+        font-size: 20px
+    }
+
+    .contactus {
+        width: 70%
+    }
+
+    div.title-wrapper p {
+        font-size: 25px
+    }
+}
+
+@media screen and (max-width:400px) {
+    .selection-wrapper label {
+        font-size: 24px
+    }
+
+    .selection-wrapper select {
+        font-size: 18px
+    }
+
+    div.form-wrapper {
+        width: 99%
+    }
+
+    div.sell-form form,
+    div.buy-form form {
+        padding: 0
+    }
+
+    form input {
+        padding: 5px 4px;
+        margin: 3px 0;
+        font-size: 18px;
+        margin-bottom: 10px
+    }
+
+    form input::placeholder {
+        font-size: 18px
+    }
+
+    select#tax {
+        font-size: 16px;
+        width: 100px
+    }
+
+    form .btn-wrapper {
+        text-align: center
+    }
+
+    .calculated-result {
+        padding: 40px 10px
+    }
+
+    .contactus {
+        width: 90%
+    }
+}
+
+@media screen and (max-width:800px) {
+    header {
+        padding: 10px
+    }
+
+    header nav div.logo h1 a {
+        font-size: 25px
+    }
+
+    div.menu-wrapper {
+        position: absolute;
+        z-index: 99;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background: #0000004d;
+        padding: 20px 0;
+        width: 0;
+        overflow: hidden;
+        transition: all .2s linear
+    }
+
+    div.show {
+        width: 100%
+    }
+
+    .option-show {
+        display: block
+    }
+
+    div.option-cross {
+        display: block;
+        padding: 0 10px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+        text-align: right;
+        margin-bottom: 20px
+    }
+
+    div.menu-wrapper ul {
+        flex-direction: column
+    }
+    section h3{
+        font-size: 48px;
+    }
+    div.message p{
+        font-size: 24px;
+    }
+    div.btn{
+        margin: 10px 0;
+    }
+    div.btn button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        margin-bottom: 10px;
+        background: #1E2761;
+        color: #fff;
+        cursor: pointer;
+        transition: background .3s linear;
+    }
+}
